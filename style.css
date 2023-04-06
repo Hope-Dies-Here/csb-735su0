@@ -1,0 +1,70 @@
+
+body{
+  
+}
+.theNav{
+  background-color: black;
+  border: none;
+}
+.nav-bottom{
+  height: 250px;
+  backgrlound-color: black;
+  background-image: url('./img/red.jpg');
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.right li{
+  
+ 
+}
+header nav{
+  background-color: black;
+  color: white;
+  height: 250px;
+  
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  padding: 5px 10px;
+}
+
+nav ul li{
+  padding: 5px 10px;
+  
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  
+}
+.header-img{
+  width: fit-content;
+  margin: auto;
+}
+
+.header-img img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+/*section */
+.card{
+  padding: 10px 0;
+  width: 18rem;
+  margin: 10px auto;
+  font-ksize: 12px;
+}
+.card img{
+  width: 40%;
+  margin: auto;
+}
