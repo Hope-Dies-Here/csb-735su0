@@ -7,8 +7,9 @@
 
 body {
   font-family: "Quicksand", sans-serif;
-lfont-family: "Josefin Sans", sans-serif;
+tfont-family: "Josefin Sans", sans-serif;
   lfont-family: "Roboto", sans-serif;
+
 }
 
 section:hover, .bottom-nav:hover{
@@ -29,6 +30,8 @@ section, .bottom-nav{
   padding: 10px 0;
   lbackground-color: red;
   color: darkcyan;
+  position: relative;
+  font-weight: 700;
 }
 
 .theNav {
@@ -91,11 +94,30 @@ section, .bottom-nav{
   /*background-image: url('./img/service_bg.jpg');
   background-size: auto;*/
 }
+
+.servicesHe h1{
+  font-weight: 700;
+}
+
+.servicesHe .card:hover{
+  transform: translateY(-8px);
+  opacity: 1;
+}
+
+.servicesHe h3{
+  font-size: 24px;
+}
+.sv-btn{
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
 .card {
   padding: 10px 0;
   width: 18rem;
   margin: 10px auto;
   opacity: 0.8;
+  transition: .5s;
   font-ksize: 12px;
 }
 .card img {
@@ -145,8 +167,53 @@ section, .bottom-nav{
 }
 
 
+#contact-cards img{
+  width: 50px;
+  transition: .6s;
+}
+
+#contact-cards .card:hover{
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, .25);
+}
+.contact-form form{
+  background-color: rgb(249);
+  width: 350px;
+  margin: auto;
+  transform: translateY(20px);
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 2px 4px 7px rgba(0, 0, 0, .2);
+}
+
+.contact-form h5{
+  font-weight: bold;
+}
+
+.contact-form textarea{
+  margin-bottom: 10px;
+}
+.contact-form input{
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  margin-top: 60px;
+}
 
 
+
+
+
+
+
+
+/*-----------------------------------------*/
 
 /*about section */
 #about-section {
